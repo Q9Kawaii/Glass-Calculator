@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+    <div class="case">
+        <div class="screencase" >
+            <input id="display" class="display" readonly>
+        </div>
+        <div class="buttoncase">
+            <div class="line">
+            <button onclick="appendtodisplay('%')" class="percent buttons sidebuttuon" id="percent">%</button>
+            <button onclick="cleardisplay()" class="ce buttons sidebuttuon " id="ce">CE</button>
+            <button onclick="cleardisplay()" class="c buttons  sidebuttuon" id="c">C</button>
+            
+            </div>
+            <div class="line">
+
+            <button onclick="appendtodisplay('/')" class="1uponx buttons  sidebuttuon" id="1uponx">1/x</button>
+            <button onclick="appendtodisplay('x²')" class="xsquare buttons  sidebuttuon" id="xsquare">x²</button>
+            <button onclick="appendtodisplay('√x')" class="sqrts buttons  sidebuttuon" id="sqrts">√x</button>
+            <button onclick="appendtodisplay('÷')" class="divide buttons  sidebuttuon" id="divide">÷</button>
+
+            </div>
+            <div class="line">
+
+            <button onclick="appendtodisplay('7')" class="seven buttons mids" id="seven">7</button>
+            <button onclick="appendtodisplay('8')" class="eight buttons mids" id="eight">8</button>
+            <button onclick="appendtodisplay('9')" class="nine buttons mids" id="nine">9</button>
+            <button onclick="appendtodisplay('x')" class="into buttons  sidebuttuon" id="into">X</button>
+
+            </div>
+            <div class="line">
+
+            <button onclick="appendtodisplay('4')" class="four buttons mids" id="four">4</button>
+            <button onclick="appendtodisplay('5')" class="five buttons mids" id="five">5</button>
+            <button onclick="appendtodisplay('6')" class="six buttons mids" id="six">6</button>
+            <button onclick="appendtodisplay('-')" class="minus buttons  sidebuttuon" id="minus">−</button>
+
+            </div>
+            <div class="line">
+                
+            <button onclick="appendtodisplay('1')" class="one buttons mids" id="one">1</button>
+            <button onclick="appendtodisplay('2')" class="two buttons mids" id="two">2</button>
+            <button onclick="appendtodisplay('3')" class="three buttons mids" id="three">3</button>
+            <button onclick="appendtodisplay('+')" class="plus buttons  sidebuttuon" id="plus">+</button>
+
+            </div>
+            <div class="line">
+
+            <button onclick="appendtodisplay('0')" class="zero buttons mids" id="zero">0</button>
+            <button onclick="appendtodisplay('.')" class="dot buttons mids" id="dot">.</button>
+            <button onclick="calculate()" class="equals buttons  sidebuttuon" id="equals">=</button>
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
